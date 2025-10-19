@@ -1,0 +1,8 @@
+# Reversi (CLI/GUI) runtime dependencies
+# このアプリ自体は標準ライブラリのみで動作するため、
+# 実行時の外部依存はありません（tkinter は標準に含まれます）。
+
+# Windows 向けに .exe を作るためのビルドツールを含めています。
+# ビルド環境でのみ必要です（ユーザー配布物には含まれません）。
+pyinstaller>=6.6
+
